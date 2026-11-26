@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 import MapboxMaps
 
 internal extension Array where Element == Any {

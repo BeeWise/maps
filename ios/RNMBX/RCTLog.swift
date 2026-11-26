@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 func RNMBXLogError(_ message: String, _ file: String=#file, _ line: UInt=#line) {
   RNMBXSwiftLog.error(message, file: file, line: line)
 }

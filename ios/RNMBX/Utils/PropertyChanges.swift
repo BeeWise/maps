@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 
 /**
  * This mechanism allows to separate property updates from application of property updates. Usefull for delaying the propery updates

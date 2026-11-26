@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 import MapboxMaps
 
 /// RNMBXSingletonLayer is absract superclass for Light, Atmosphere, Terrain

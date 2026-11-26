@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 import MapboxMaps
 
 let RCT_MAPBOX_USER_LOCATION_UPDATE = "MapboxUserLocationUpdate";

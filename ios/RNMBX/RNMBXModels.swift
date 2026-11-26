@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 @_spi(Experimental) import MapboxMaps
 
 @objc(RNMBXModels)

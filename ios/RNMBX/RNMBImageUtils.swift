@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 class RNMBImageUtils {
   static func createTempFile(_ image: UIImage) -> URL {
     let fileID = UUID().uuidString

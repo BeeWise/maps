@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 private let LOG_TAG = "ShapeAnimatorManager"
 
 class ShapeAnimatorManager {

@@ -7,7 +7,11 @@
 
 #import "rnmapbox_maps-Swift.pre.h"
 
+#if RNMBX_SPM
+#import <rnmapbox_maps_specs/rnmapbox_maps_specs.h>
+#else
 #import "rnmapbox_maps_specs.h"
+#endif
 
 @interface RNMBXChangeLineOffsetsShapeAnimatorModule: NSObject <NativeRNMBXChangeLineOffsetsShapeAnimatorModuleSpec>
 @end

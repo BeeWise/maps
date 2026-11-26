@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 internal extension Encodable {
   func toJSON() throws -> Any {
       return try JSONSerialization.jsonObject(with: JSONEncoder().encode(self))

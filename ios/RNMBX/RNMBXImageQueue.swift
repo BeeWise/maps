@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 class RNMBXImageQueueOperation : Operation {
   enum State : Equatable {
     case Initial

@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 @_spi(Restricted) @_spi(Experimental) import MapboxMaps
 import Turf
 import MapKit

@@ -1,3 +1,7 @@
+#if SWIFT_PACKAGE
+import React
+import RNMBXSupport
+#endif
 import Foundation
 import MapboxMaps
 #if canImport(MapboxMobileEvents)

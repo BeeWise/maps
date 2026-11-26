@@ -35,8 +35,13 @@
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
-    "!**/.*"
+    "!**/.*",
+    "Package.swift",
+    "scripts/sync-spm-swift-interface.cjs"
   ],
+  "swiftpmConfig": {
+    "name": "rnmapbox_maps"
+  },
   "scripts": {
     "example": "yarn workspace @rnmapbox/maps-example",
     "test": "yarn lint && yarn unittest",
